@@ -1,0 +1,35 @@
+@import '../abstract/variables';
+@import '../abstract/reset';
+@import '../abstract/base';
+
+.address-info {
+  padding: 32px 24px;
+  h1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #27214D;
+    margin-bottom: 17px;
+  }
+  .address-name, .your-number {
+    .input-info {
+      padding: 16px 130px 16px 16px;
+      background-color: #F7F5F5;
+      border-radius: 10px;
+      margin-bottom: 16px;
+    }
+  }
+  .payment {
+    gap: 22px;
+    margin-top: 28px;
+    .pay-delivery, .pay-card {
+      a {
+        padding: 16px 24px;
+        background-color: #FCF6F0;
+        color: #F08626;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+}
