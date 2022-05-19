@@ -1,0 +1,42 @@
+@import '../abstract/variables';
+@import '../abstract/reset';
+@import '../abstract/base';
+
+.card-info {
+  padding: 32px 24px;
+  h1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #27214D;
+    margin-bottom: 17px;
+  }
+  .card-name, .card-number {
+    .input-info {
+      padding: 16px 130px 16px 16px;
+      background-color: #F7F5F5;
+      border-radius: 10px;
+      margin-bottom: 16px;
+    }
+  }
+  .date-cvv {
+    margin-bottom: 49px;
+    gap: 27px;
+    .input-back {
+      width: 130px;
+      height: 56px;
+      padding-left: 16px;
+      background-color: #F7F5F5;
+      border-radius: 10px;
+      
+    }
+  }
+  a {
+    background-color: $primary-color;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px 58px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
