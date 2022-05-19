@@ -1,0 +1,45 @@
+$primary-color: #FFA451;
+
+@mixin container (){
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #fff;
+  &::after,
+    &::before {
+      content: "";
+      display: table;
+      clear: both;
+    }
+}
+
+@mixin statusbar-1($bg-color) {
+  background-color: $bg-color;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin statusbar-2($bg-color) {
+  $bg-color: #fff;
+  background-color: $bg-color;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin back {
+  .back-btn {
+    align-items: center;
+    background-color: #fff;
+    width: 60px;
+    border-radius: 100px;
+    padding: 6px 8px;
+    margin-top: 20px;
+    margin-left: 24px;
+    font-size: 12px;
+    #go-back {
+      color: #27214D;
+    }
+    #arrow {
+      margin-right: 4px; 
+    }
+  }
+}
