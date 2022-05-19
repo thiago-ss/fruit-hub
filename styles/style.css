@@ -1274,4 +1274,409 @@ html, body {
   font-weight: 500;
   font-size: 16px;
 }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+html, body {
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.order {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #fff;
+  background-color: #FFA451;
+}
+
+.order::after, .order::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.order .back-btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  width: 60px;
+  border-radius: 100px;
+  padding: 6px 8px;
+  margin-top: 20px;
+  margin-left: 24px;
+  font-size: 12px;
+}
+
+.order .back-btn #go-back {
+  color: #27214D;
+}
+
+.order .back-btn #arrow {
+  margin-right: 4px;
+}
+
+.order header .title {
+  gap: 32px;
+  margin-bottom: 36px;
+}
+
+.order header .title h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFF;
+  margin-top: 24px;
+}
+
+.order .orders-basket {
+  background-color: #FFF;
+}
+
+.order .orders-basket .item-1 .food {
+  background-color: #FFFAEB;
+  padding: 12px;
+  border-radius: 10px;
+  margin-left: 24px;
+  margin-top: auto;
+  margin-right: 16px;
+}
+
+.order .orders-basket .item-1 .description {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 88px;
+}
+
+.order .orders-basket .item-1 .description #salad-name {
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 48px;
+}
+
+.order .orders-basket .item-1 .description h4 {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+  margin: 0;
+}
+
+.order .orders-basket .item-1 .description .price {
+  margin-top: 2px;
+  gap: 4px;
+}
+
+.order .orders-basket .item-1 .description .price h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #27214D;
+}
+
+.order .orders-basket .item-1 .minus {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 48px;
+}
+
+.order .orders-basket .item-2 .food {
+  background-color: #F1EFF6;
+  padding: 16px 7px;
+  border-radius: 10px;
+  margin-left: 24px;
+  margin-top: auto;
+  margin-right: 16px;
+}
+
+.order .orders-basket .item-2 .description {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 95px;
+}
+
+.order .orders-basket .item-2 .description #salad-name {
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 48px;
+}
+
+.order .orders-basket .item-2 .description h4 {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+  margin: 0;
+}
+
+.order .orders-basket .item-2 .description .price {
+  margin-top: 2px;
+  gap: 4px;
+}
+
+.order .orders-basket .item-2 .description .price h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #27214D;
+}
+
+.order .orders-basket .item-2 .minus {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 48px;
+}
+
+.order .orders-basket .item-3 .food {
+  background-color: #FEF0F0;
+  padding: 18px 6px;
+  border-radius: 10px;
+  margin-left: 24px;
+  margin-top: auto;
+  margin-right: 16px;
+}
+
+.order .orders-basket .item-3 .description {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 84px;
+}
+
+.order .orders-basket .item-3 .description #salad-name {
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 48px;
+}
+
+.order .orders-basket .item-3 .description h4 {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+  margin: 0;
+}
+
+.order .orders-basket .item-3 .description .price {
+  margin-top: 2px;
+  gap: 4px;
+}
+
+.order .orders-basket .item-3 .description .price h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #27214D;
+}
+
+.order .orders-basket .item-3 .minus {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 48px;
+}
+
+.order .orders-basket .checkout {
+  height: 100px;
+  margin-top: 203px;
+  background-color: #FAFAFA;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 63px 24px 0px 24px;
+}
+
+.order .orders-basket .checkout h4 {
+  color: #333;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.order .orders-basket .checkout .finish {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.order .orders-basket .checkout .finish .price {
+  gap: 4px;
+}
+
+.order .orders-basket .checkout .finish .price h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 52px;
+  color: #27214D;
+}
+
+.order .orders-basket .checkout .finish a {
+  padding: 20px 62px;
+  color: #FFF;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #FFA451;
+  border-radius: 10px;
+}
 /*# sourceMappingURL=style.css.map */
