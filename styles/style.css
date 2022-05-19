@@ -971,4 +971,307 @@ html, body {
 .container .recommendations .combos .combo-4 {
   background-color: #FEF4F4;
 }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+html, body {
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.basket {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #fff;
+  background-color: #FFA451;
+}
+
+.basket::after, .basket::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.basket .back-btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  width: 60px;
+  border-radius: 100px;
+  padding: 6px 8px;
+  margin-top: 20px;
+  margin-left: 24px;
+  font-size: 12px;
+}
+
+.basket .back-btn #go-back {
+  color: #27214D;
+}
+
+.basket .back-btn #arrow {
+  margin-right: 4px;
+}
+
+.basket .img-2 {
+  margin-bottom: 32px;
+}
+
+.basket .order {
+  background-color: #fff;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding: 40px 24px 16px 24px;
+}
+
+.basket .order h1 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #27214D;
+  margin-bottom: 24px;
+}
+
+.basket .order .add {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 41px;
+}
+
+.basket .order .add .quantity {
+  gap: 24px;
+}
+
+.basket .order .add .quantity h2 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #27214D;
+  line-height: 30px;
+}
+
+.basket .order .add .price {
+  gap: 5px;
+}
+
+.basket .order .add .price h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #27214D;
+  line-height: 30px;
+}
+
+.basket .combo-elements {
+  background-color: #FFF !important;
+}
+
+.basket .combo-elements h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #27214D;
+  margin-left: 24px;
+  margin-bottom: 6px;
+}
+
+.basket .combo-elements img {
+  margin-left: 24px;
+}
+
+.basket .combo-elements .elements-1 {
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+.basket .combo-elements .elements-2 {
+  margin-left: 24px;
+  margin-bottom: 20px;
+}
+
+.basket .combo-elements .elements-item {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 6px 8px;
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #403E3E;
+  font-weight: 400;
+}
+
+.basket .combo-elements .finish-order p {
+  color: #333333;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 14px 49px 43px 24px;
+  line-height: 24px;
+}
+
+.basket .combo-elements .finish-order .footer {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.basket .combo-elements .finish-order .footer img {
+  margin-bottom: 16px;
+}
+
+.basket .combo-elements .finish-order .footer a {
+  background-color: #FFA451;
+  text-align: center;
+  border-radius: 10px;
+  padding: 16px 58px;
+  color: #FFF;
+  margin-right: 24px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+}
 /*# sourceMappingURL=style.css.map */
