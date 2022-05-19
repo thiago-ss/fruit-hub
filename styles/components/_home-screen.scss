@@ -1,0 +1,112 @@
+@import '../abstract/reset';
+@import '../abstract/variables';
+@import '../abstract/base';
+
+.container {
+  @include container();
+  header {
+    .container-2 {
+      max-width: 330px;
+      margin: 0 auto;
+      margin-top: 24px;
+      background-color: #fff;
+      .welcome {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #27214D;
+        display: flex;
+        #options {
+          margin-right: 16px;
+        }
+          #basket {
+            margin-left: auto;
+            padding: 12px;
+          }
+      }
+      .search {
+        display: flex;
+        align-items: center;
+        padding: 20px 0px;
+        input {
+          outline: none;
+          border: none;
+          margin-left: 16px;
+        }
+        #filter {
+          margin-left: auto;
+        }
+      }
+      .recommended-combos {
+        display: flex;
+        justify-content: center;
+        .list-item {
+          font-size: 14px;
+          padding: 8px 16px;
+          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.25);
+          border-radius: 10px;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+  .recommendations {
+    margin-bottom: 29px;
+    margin-top: 36px;
+    margin-left: 24px;
+    .titles {
+      display: flex;
+      font-size: 16px;
+      color: #27214D;
+      gap: 24px;
+      .non-selected {
+        color: #CCC;
+      }
+    }
+    h2 {
+      color: #27214D;
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .combos {
+      display: flex;
+      gap: 23px;
+      margin-top: 16px;
+      .combo {
+        box-shadow: 0px 30px 60px rgba(32, 32, 32, 0.1);
+        border-radius: 16px;
+        width: 152px;
+        .combo-img {
+          margin: 16px 16px 13px 36px;
+        }
+        .combo-description {
+          .name {
+            text-align: center;
+            font-weight: 500;
+            font-size: 14px;
+          }
+          .price {
+            display: flex;
+            align-items: center;
+            margin-left: 16px;
+            margin-right: 16px;
+            color: $primary-color;
+            font-weight: 500;
+            .coin {
+              margin-right: 4px;
+            }
+          }
+          .plus {
+            margin-left: auto;
+          }
+        }
+      }
+      .combo-3 {
+        background-color: #FFFCF2;
+      }
+      .combo-4 {
+        background-color: #FEF4F4;
+      }
+    }
+  }
+}
