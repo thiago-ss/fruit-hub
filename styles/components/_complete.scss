@@ -1,0 +1,49 @@
+@import '../abstract/variables';
+@import '../abstract/reset';
+@import '../abstract/base';
+
+.container {
+  @include container();
+  .complete {
+    img {
+      margin-top: 120px;
+    }
+  }
+  .content-complete {
+    margin: 40px 64px 56px 64px;
+    text-align: center;
+    h1 {
+      color: #27214D;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 48px;
+    }
+    p {
+      color: #111;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+  }
+  .complete-btn {
+    justify-content: center;
+    margin-bottom: 154px;
+    gap: 24px;
+    #track {
+      padding: 20px 62px;
+      color: #FFF;
+      font-weight: 500;
+      font-size: 16px;
+      background-color: $primary-color;
+      border-radius: 10px;
+    }
+    a {
+      padding: 20px 24px;
+      background-color: #FCF6F0;
+      color: #F08626;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
