@@ -2278,4 +2278,279 @@ html, body {
   font-size: 16px;
   font-weight: 500;
 }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+html, body {
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .status-header {
+  background-color: #FFA451;
+}
+
+.container .status-header .back-btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  width: 60px;
+  border-radius: 100px;
+  padding: 6px 8px;
+  margin-top: 20px;
+  margin-left: 24px;
+  font-size: 12px;
+}
+
+.container .status-header .back-btn #go-back {
+  color: #27214D;
+}
+
+.container .status-header .back-btn #arrow {
+  margin-right: 4px;
+}
+
+.container .status-header .header-back {
+  padding-bottom: 36px;
+  gap: 32px;
+}
+
+.container .status-header .header-back h1 {
+  color: #FFF;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+.container .delivery-status {
+  padding: 40px 24px;
+}
+
+.container .delivery-status .track-line {
+  margin-left: 30px;
+}
+
+.container .delivery-status h1 {
+  text-align: center;
+  margin-left: 16px;
+  margin-top: 25px;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.container .delivery-status .order-taken .status-img {
+  background-color: #FFFAEB;
+  border-radius: 10px;
+  padding: 10px 8px;
+}
+
+.container .delivery-status .order-taken h1 {
+  text-align: center;
+  margin-left: 16px;
+  margin-top: 25px;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.container .delivery-status .order-taken .checkmark {
+  margin-left: auto;
+}
+
+.container .delivery-status .order-processed #processed-img {
+  background-color: #F1EFF6;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.container .delivery-status .order-processed .checkmark {
+  margin-left: auto;
+}
+
+.container .delivery-status .order-delivered #img-phone {
+  margin-left: auto;
+  margin-top: 8px;
+}
+
+.container .delivery-status .order-delivered div p {
+  color: #333;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 16px;
+}
+
+.container .delivery-status .order-delivered #delivered-img {
+  padding: 4px;
+  background-color: #FEF0F0;
+  border-radius: 10px;
+  height: 56px;
+  margin-top: 10px;
+}
+
+.container .delivery-status .order-received #checkmark-2 {
+  padding: 12px;
+  background-color: #F0FEF8;
+  border-radius: 10px;
+}
+
+.container .delivery-status .order-received h1 {
+  margin-left: 16px;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.container .delivery-status .order-received #balls {
+  margin-left: auto;
+}
 /*# sourceMappingURL=style.css.map */
