@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link href="http://fonts.cdnfonts.com/css/tt-norms-pro" rel="stylesheet">
+  <link rel="icon" href="../assets/logo.svg">
+  <title>Authentication</title>
+</head>
+<body>
+  <div class="container">
+    <div class="status-bar-1">
+      <img src="../assets/statusbar.svg" alt="Status bar">
+    </div>
+    <div class="img">
+      <img src="../assets/img2.svg" alt="Fruit basket">
+    </div>
+    <div class="text">
+      <h2>What is your firstname?</h2>
+      <input type="text" placeholder="Tony">
+    </div>
+    <div class="btn">
+      <button>Start ordering</button>
+    </div>
+  </div>
+  <script>
+    const button = document.querySelector('.btn button')
+    button.addEventListener("click", () => {
+      location.href = "home-screen.html"
+    })
+  </script>
+</body>
+</html>
